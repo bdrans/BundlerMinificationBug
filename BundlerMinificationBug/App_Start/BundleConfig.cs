@@ -11,6 +11,9 @@ namespace BundlerMinificationBug
             bundles.Add(new ScriptBundle("~/bundles/ForTest").Include(
                         "~/Scripts/ForTest.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/ForTestWorkaround").Include(
+                        "~/Scripts/ForTestWorkaround.js"));
+
             BundleTable.EnableOptimizations = true;
         }
     }

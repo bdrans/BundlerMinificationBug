@@ -20,5 +20,9 @@ namespace BundlerMinificationBug.Controllers
         {
             return View();
         }
+        public ActionResult Workaround()
+        {
+            return View();
+        }
     }
 }

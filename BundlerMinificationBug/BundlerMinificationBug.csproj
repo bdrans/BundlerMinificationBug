@@ -129,6 +129,7 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\ForTestWorkaround.js" />
     <Content Include="Scripts\ForTest.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -151,6 +152,7 @@
     <None Include="packages.config" />
     <Content Include="Views\Home\Bundled.cshtml" />
     <Content Include="Views\Home\UnBundled.cshtml" />
+    <Content Include="Views\Home\Workaround.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
